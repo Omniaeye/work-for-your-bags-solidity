@@ -1,0 +1,138 @@
+{
+  "schema": "omnia-wfyb-input-v1",
+  "chainId": "31337",
+  "distributor": "0x0000000000000000000000000000000000000001",
+  "rewardToken": "0x0000000000000000000000000000000000000002",
+  "projectToken": "0x0000000000000000000000000000000000000003",
+  "treasury": "0x0000000000000000000000000000000000000004",
+  "rewardDecimals": 6,
+  "projectDecimals": 18,
+  "roundId": "1789344000",
+  "start": "2026-09-14T00:00:00Z",
+  "end": "2026-09-21T00:00:00Z",
+  "evidenceClosedAt": "2026-09-21T00:05:00Z",
+  "snapshot": {
+    "number": "100",
+    "hash": "0x0000000000000000000000000000000000000000000000000000000000000064",
+    "timestamp": "2026-09-21T00:00:00Z",
+    "nextBlockTimestamp": "2026-09-21T00:00:01Z",
+    "nextBlockHash": "0x0000000000000000000000000000000000000000000000000000000000000065",
+    "finalized": true
+  },
+  "history": {
+    "complete": true,
+    "usedPostIds": [],
+    "allocatedFeeKeys": [],
+    "approvedRoundIds": []
+  },
+  "receipts": [
+    {
+      "transactionHash": "0x0000000000000000000000000000000000000000000000000000000000000032",
+      "logIndex": "0",
+      "token": "0x0000000000000000000000000000000000000002",
+      "recipient": "0x0000000000000000000000000000000000000004",
+      "amount": "100000000",
+      "receivedAt": "2026-09-20T23:00:00Z",
+      "blockNumber": "90",
+      "blockHash": "0x000000000000000000000000000000000000000000000000000000000000005a",
+      "finalized": true,
+      "originVerified": true,
+      "provenanceHash": "0x0000000000000000000000000000000000000000000000000000000000000033"
+    }
+  ],
+  "participants": [
+    {
+      "xId": "1",
+      "wallet": "0x000000000000000000000000000000000000000b",
+      "identityVerified": true,
+      "walletVerified": true,
+      "identityEvidenceHash": "0x00000000000000000000000000000000000000000000000000000000000000c9",
+      "balance": "100000000000000000000000",
+      "balanceBlockHash": "0x0000000000000000000000000000000000000000000000000000000000000064",
+      "posts": [
+        {
+          "id": "1001",
+          "authorId": "1",
+          "type": "original",
+          "available": true,
+          "relevant": true,
+          "publishedAt": "2026-09-15T00:00:00Z",
+          "submittedAt": "2026-09-15T00:01:00Z",
+          "observedAt": "2026-09-21T00:01:00Z",
+          "evidenceHash": "0x000000000000000000000000000000000000000000000000000000000000012d",
+          "review": {
+            "decision": "include"
+          },
+          "metrics": {
+            "views": "100",
+            "likes": "0",
+            "reposts": "0",
+            "quotes": "0"
+          }
+        }
+      ]
+    },
+    {
+      "xId": "2",
+      "wallet": "0x000000000000000000000000000000000000000c",
+      "identityVerified": true,
+      "walletVerified": true,
+      "identityEvidenceHash": "0x00000000000000000000000000000000000000000000000000000000000000ca",
+      "balance": "100000000000000000000000",
+      "balanceBlockHash": "0x0000000000000000000000000000000000000000000000000000000000000064",
+      "posts": [
+        {
+          "id": "1002",
+          "authorId": "2",
+          "type": "original",
+          "available": true,
+          "relevant": true,
+          "publishedAt": "2026-09-15T00:00:00Z",
+          "submittedAt": "2026-09-15T00:01:00Z",
+          "observedAt": "2026-09-21T00:01:00Z",
+          "evidenceHash": "0x000000000000000000000000000000000000000000000000000000000000012e",
+          "review": {
+            "decision": "include"
+          },
+          "metrics": {
+            "views": "200",
+            "likes": "0",
+            "reposts": "0",
+            "quotes": "0"
+          }
+        }
+      ]
+    },
+    {
+      "xId": "3",
+      "wallet": "0x000000000000000000000000000000000000000d",
+      "identityVerified": true,
+      "walletVerified": true,
+      "identityEvidenceHash": "0x00000000000000000000000000000000000000000000000000000000000000cb",
+      "balance": "100000000000000000000000",
+      "balanceBlockHash": "0x0000000000000000000000000000000000000000000000000000000000000064",
+      "posts": [
+        {
+          "id": "1003",
+          "authorId": "3",
+          "type": "original",
+          "available": true,
+          "relevant": true,
+          "publishedAt": "2026-09-15T00:00:00Z",
+          "submittedAt": "2026-09-15T00:01:00Z",
+          "observedAt": "2026-09-21T00:01:00Z",
+          "evidenceHash": "0x000000000000000000000000000000000000000000000000000000000000012f",
+          "review": {
+            "decision": "include"
+          },
+          "metrics": {
+            "views": "300",
+            "likes": "0",
+            "reposts": "0",
+            "quotes": "0"
+          }
+        }
+      ]
+    }
+  ]
+}

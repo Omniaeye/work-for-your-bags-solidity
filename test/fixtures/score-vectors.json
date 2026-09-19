@@ -1,0 +1,40 @@
+[
+  {
+    "metrics": {
+      "views": "100",
+      "likes": "9",
+      "reposts": "5",
+      "quotes": "2",
+      "replies": "99999"
+    },
+    "expectedScore": "141"
+  },
+  {
+    "metrics": {
+      "views": "100",
+      "likes": "9",
+      "reposts": "5",
+      "quotes": "2",
+      "replies": "0"
+    },
+    "expectedScore": "141"
+  },
+  {
+    "metrics": {
+      "views": "1",
+      "likes": "0",
+      "reposts": "0",
+      "quotes": "0"
+    },
+    "expectedScore": "1"
+  },
+  {
+    "metrics": {
+      "views": "500",
+      "likes": "2",
+      "reposts": "3",
+      "quotes": "1"
+    },
+    "expectedScore": "517"
+  }
+]
