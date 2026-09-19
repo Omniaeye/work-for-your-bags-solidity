@@ -2,7 +2,6 @@
 
 Human-approved, prefunded reward distribution for OMNIA on Robinhood Chain. The Solidity contract pays an immutable allocation; an offline tool prepares the evidence, scores and Merkle proofs for review.
 
-**Pre-release · not deployed · not independently audited.** No production token addresses, signing keys or live collectors are included.
 
 ## How it works
 
