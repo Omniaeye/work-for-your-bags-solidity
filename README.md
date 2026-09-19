@@ -1,6 +1,6 @@
 # Work for Your Bags
 
-Human-approved, prefunded reward distribution for OMNIA on Robinhood Chain. The Solidity contract pays an immutable allocation; an offline tool prepares the evidence, scores and Merkle proofs for review.
+Human-approved for review each tweet, prefunded reward distribution for OMNIA on Robinhood Chain. The Solidity contract pays an immutable allocation; an offline tool prepares the evidence, scores and Merkle proofs for review.
 
 
 ## How it works
@@ -45,19 +45,6 @@ These commands do not access a wallet, query a public RPC or send transactions. 
 
 The complete [rules](docs/RULES.md) define eligibility, timing, moderation, carryover and review. The offline generator checks supplied evidence; it cannot establish whether that evidence is true.
 
-## Contract guarantees and limits
-
-| Enforced | Still depends on review or operations |
-| --- | --- |
-| Fully funded budget and backed pending reserves | Correct Pons receipts, conversions and allocation history |
-| Separate proposer and approval authority | Human-controlled signing keys and meaningful review |
-| Immutable active root and revision-bound approval | Correct recipients, scores and sum of Merkle leaves |
-| One successful payment per wallet per round | Authenticated identity, eligibility and social-abuse review |
-| Proof-bound beneficiary and replay-domain isolation | Availability of manifests/proofs and reliable chain access |
-| Exact sender/recipient transfer amounts | Canonical token configuration and token issuer behavior |
-
-No proxy, upgrade, arbitrary execution, administrative withdrawal, reward expiry or active-root replacement exists. Direct transfers are uncredited and unrecoverable. An incorrect approved root can strand funds; the administrator can maintain a pause indefinitely. These are deliberate limitations, not problems a high coverage percentage resolves.
-
 ## Repository layout
 
 ```text
@@ -88,9 +75,5 @@ docs/                 Rules, architecture, operations and review
 | [Provenance](docs/PROVENANCE.md) | Existing-code import and reconstructed author dates |
 
 See [CONTRIBUTING.md](CONTRIBUTING.md), [SECURITY.md](SECURITY.md) and [CHANGELOG.md](CHANGELOG.md).
-
-## Before production
-
-Verify the actual chain, contracts, decimals and fee path; integrate authenticated evidence and a persistent ledger; build the review/claim interface and relayer; complete a real-token fork test, full testnet round and independent audit. Only then authorize a separately reviewed pilot. This repository does not claim those steps are complete.
 
 Licensed under [MIT](LICENSE). OpenZeppelin dependencies retain their own notices and licenses.
